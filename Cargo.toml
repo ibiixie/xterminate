@@ -1,11 +1,11 @@
 [package]
 name = "xterminate"
 description = "Easily terminate any windowed process by the press of a button."
-repository = "https://github.com/imxela/xterminate"
+repository = "https://github.com/ibiixie/xterminate"
 keywords = [ "windows", "rust", "utility", "tool", "kill", "terminate", "task-kill", "alt-f4" ]
 version = "2.0.0"
 edition = "2021"
-authors = ["Xela <https://github.com/imxela/>"]
+authors = ["Biixie <hi@biixie.com>"]
 license-file = "LICENSE"
 readme = "README"
 build = "build.rs"
@@ -49,4 +49,4 @@ winres = "0.1"
 
 [package.metadata.winres]
 OriginalFilename = "xterminate.exe"
-LegalCopyright = "Copyright (c) 2024 Xela, see LICENSE file for more information."
+LegalCopyright = "Copyright (c) 2022-2025 Biixie <hi@biixie.com>, see LICENSE file for more information."

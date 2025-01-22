@@ -270,7 +270,7 @@ impl TaskDialogBuilder {
     /// let dialog = TaskDialog::new()
     ///     .set_title("Title")
     ///     .set_heading("Heading")
-    ///     .set_content("This is a <a href=\"https://xela.me\">link</a>!")
+    ///     .set_content("This is a <a href=\"https://biixie.com/\">link</a>!")
     ///     .set_hyperlinks_enabled(true)
     ///     .build();
     /// ```

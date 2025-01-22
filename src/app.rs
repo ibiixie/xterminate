@@ -468,10 +468,10 @@ impl crate::tray::TrayEventHandler for App {
                     .set_heading(format!("xterminate v{}", env!("CARGO_PKG_VERSION")))
                     .set_content(
                         "Easily terminate any windowed process by the press of a button.\
-                        \n\nThis software was created by <a href=\"https://github.com/imxela\">@imxela</a> and is licensed under the open-source \
-                        <a href=\"https://github.com/imxela/xterminate/blob/main/LICENSE\">MIT license</a>. \
-                        The source code is publicly available in xterminate's <a href=\"https://github.com/imxela/xterminate\">GitHub repository</a>.\n\n\
-                        Contact information can be found on my <a href=\"https://xela.me\">website</a>.\
+                        \n\nThis software was created by <a href=\"https://github.com/ibiixie\">@ibiixie</a> and is licensed under the open-source \
+                        <a href=\"https://github.com/ibiixie/xterminate/blob/main/LICENSE\">MIT license</a>. \
+                        The source code is publicly available in xterminate's <a href=\"https://github.com/ibiixie/xterminate\">GitHub repository</a>.\n\n\
+                        Contact information can be found on my <a href=\"https://biixie.com/\">website</a>.\
                         \n\nThank you for using my software! <3"
                     )
                     .set_hyperlinks_enabled(true)

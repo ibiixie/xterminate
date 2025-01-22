@@ -1,6 +1,6 @@
 <br><br>
 
-<p align="center"><img src="https://github.com/imxela/xterminate/blob/main/images/logo.png?raw=true" alt="xterminate logo" border="0"></p>
+<p align="center"><img src="https://github.com/ibiixie/xterminate/blob/main/images/logo.png?raw=true" alt="xterminate logo" border="0"></p>
 
 **<p align="center">Easily terminate any windowed process by the press of a button</p>**
 
@@ -48,10 +48,10 @@ By relying on raw-input keyboard shortcuts, xterminate completely bypasses my is
 
 You can download the latest pre-built xterminate binaries directly using the links below.
 
- - <a href="https://github.com/imxela/xterminate/releases/latest/download/xterminate-setup.exe">Download Installer</a>
- - <a href="https://github.com/imxela/xterminate/releases/latest/download/xterminate-portable.zip">Download Portable</a>
+ - <a href="https://github.com/ibiixie/xterminate/releases/latest/download/xterminate-setup.exe">Download Installer</a>
+ - <a href="https://github.com/ibiixie/xterminate/releases/latest/download/xterminate-portable.zip">Download Portable</a>
 
-If you are unsure which version to get, I recommend the more user-friendly installer option. You can read release notes or download older versions of xterminate on the <a href="https://github.com/imxela/xterminate/releases">releases page</a>.
+If you are unsure which version to get, I recommend the more user-friendly installer option. You can read release notes or download older versions of xterminate on the <a href="https://github.com/ibiixie/xterminate/releases">releases page</a>.
 
 ---
 <a id='anchor-building-from-source'></a>
@@ -63,7 +63,7 @@ If you are unsure which version to get, I recommend the more user-friendly insta
 <a id='anhor-prerequisites'></a>
 ### 1. Prerequisites
 
-Before building xterminate, download and install the [Rust programming language](https://www.rust-lang.org/tools/install), and clone this repository to a location of your choice, either by using [Git](https://git-scm.com/downloads) or by downloading the repository as a ZIP-archive from [here](https://github.com/imxela/xterminate/archive/refs/heads/main.zip). You will also need to download and install the [Null-Soft Install System](https://nsis.sourceforge.io/Download) to compile the install script, as well as add the installation directory to your PATH.
+Before building xterminate, download and install the [Rust programming language](https://www.rust-lang.org/tools/install), and clone this repository to a location of your choice, either by using [Git](https://git-scm.com/downloads) or by downloading the repository as a ZIP-archive from [here](https://github.com/ibiixie/xterminate/archive/refs/heads/main.zip). You will also need to download and install the [Null-Soft Install System](https://nsis.sourceforge.io/Download) to compile the install script, as well as add the installation directory to your PATH.
 
 <a id='anchor-building'></a>
 ### 2. Building
@@ -72,7 +72,7 @@ First and foremost, navigate to a location of your choice using your terminal an
 
 ```cmd
 cd %UserProfile%\Desktop
-git clone https://github.com/imxela/xterminate.git
+git clone https://github.com/ibiixie/xterminate.git
 ```
 
 Navigate into the cloned repository and run the build command to create the xterminate executable. When the build completes, the executable will be in the `xterminate-main\target\release` directory.

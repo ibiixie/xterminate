@@ -197,7 +197,7 @@ async fn download(
     progress: std::sync::Arc<std::sync::atomic::AtomicU32>,
 ) -> Result<std::fs::File, UpdateError> {
     let release_url = format!(
-        "https://github.com/imxela/xterminate/releases/download/v{}/xterminate-portable.zip",
+        "https://github.com/ibiixie/xterminate/releases/download/v{}/xterminate-portable.zip",
         release.version
     );
 
@@ -266,7 +266,7 @@ pub fn query_all() -> Result<Vec<ReleaseInfo>, UpdateError> {
         format!("xterminate/{current_version}").parse().unwrap(),
     );
 
-    let api_url = "https://api.github.com/repos/imxela/xterminate/git/refs/tags".to_owned();
+    let api_url = "https://api.github.com/repos/ibiixie/xterminate/git/refs/tags".to_owned();
     let api_response = client
         .get(api_url)
         .headers(headers)
@@ -284,7 +284,7 @@ pub fn query_all() -> Result<Vec<ReleaseInfo>, UpdateError> {
 
             ReleaseInfo {
                 version: version.clone(),
-                download_url: format!("https://github.com/imxela/xterminate/releases/download/v{version}/xterminate-setup.exe"),
+                download_url: format!("https://github.com/ibiixie/xterminate/releases/download/v{version}/xterminate-setup.exe"),
             }
         })
         .collect::<Vec<ReleaseInfo>>();

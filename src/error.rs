@@ -66,7 +66,7 @@ pub fn set_panic_hook() {
     std::panic::set_hook(Box::new(on_panic));
 }
 
-fn on_panic(info: &std::panic::PanicInfo) {
+fn on_panic(info: &std::panic::PanicHookInfo) {
     let message: String;
 
     let date = Local::now().format("%Y-%m-%d");

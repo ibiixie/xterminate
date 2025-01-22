@@ -87,6 +87,8 @@ macro_rules! generate_keycodes {
 
         as_item! {
             #[derive(Eq, PartialEq, Hash, Clone, Copy, Debug)]
+            // Warning for 16-bit architectures -- won't be a problem here.
+            #[allow(clippy::cast_possible_wrap)]
             pub enum KeyCode {
                 $($enum = $identifier.0 as isize,)*
             }

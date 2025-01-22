@@ -45,8 +45,8 @@ features = [
 ]
 
 [target.'cfg(windows)'.build-dependencies]
-winres = "0.1"
+winresource = "0.1.19"
 
-[package.metadata.winres]
+[package.metadata.winresource]
 OriginalFilename = "xterminate.exe"
 LegalCopyright = "Copyright (c) 2022-2025 Biixie <hi@biixie.com>, see LICENSE file for more information."
